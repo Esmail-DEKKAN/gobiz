@@ -2,6 +2,18 @@
     margin: 0px;
     padding: 0px;
 }
+/* start header style */
+
+.header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+}
+.favoraite i {
+  font-size: 25px;
+}
+/* end header style */
 
 .Filter {
     width: 100%;
