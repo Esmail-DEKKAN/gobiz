@@ -1,0 +1,102 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
+<meta name="csrf-token" content>
+<title>404 - Page Not Found</title>
+<script src="../js/api.js" async defer type="b0cb33a50a65d5872da8a1c1-text/javascript"></script>
+
+<link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;700&amp;display=swap" rel="stylesheet">
+<link rel="stylesheet" href="../css/tailwind.min_1.css">
+<link rel="stylesheet" href="../css/style.css">
+<link rel="stylesheet" href="../css/sweetalert.min.css">
+<link rel="stylesheet" href="../css/fontawesome.min.css">
+<script type="b0cb33a50a65d5872da8a1c1-text/javascript" src="../js/alpine.min.js"></script>
+<script type="b0cb33a50a65d5872da8a1c1-text/javascript" src="../js/jquery.min.js"></script>
+<script type="b0cb33a50a65d5872da8a1c1-text/javascript" src="../js/main_1.js"></script>
+<script type="b0cb33a50a65d5872da8a1c1-text/javascript" src="../js/sweetalert.min.js"></script>
+</head>
+<body class="antialiased bg-body text-body font-body" dir="ltr">
+<div>
+<section>
+<div class="flex flex-wrap">
+<div class="pt-6 lg:pt-16 pb-6 w-full lg:w-full mt-48">
+<div class="max-w-md mx-auto">
+<div>
+<div class="mb-6 px-3 text-center">
+<span class="text-gray-500">404</span>
+<h3 class="text-2xl font-bold mb-5">Page Not Found</h3>
+<a class="mb-6 w-full p-4 bg-blue-600 hover:bg-blue-700 rounded text-sm font-bold text-gray-50 transition duration-200" href="https://gobiz.goapps.co.in">Back to home</a>
+</div>
+</div>
+</div>
+</div>
+</div>
+</section>
+<div class="fixed bottom-0 inset-x-0 z-50 js-cookie-consent cookie-consent">
+<div class="max-w-md mx-4 md:mx-0 md:ml-10 mb-6 pt-8 bg-gray-700 text-white rounded-lg">
+<div class="px-8 text-center">
+<p class="font-bold font-heading">Cookie Policy</p>
+<p class="mb-5 mt-3 mb-6 text-gray-400 text-sm">Your experience on this site will be improved by allowing cookies.</p>
+</div>
+<div class="flex border-t border-gray-600 text-center"><a onclick="if (!window.__cfRLUnblockHandlers) return false; closeCookie()" class="inline-block w-1/2 py-4 text-sm rounded-bl-lg border-r border-gray-600 font-bold hover:bg-gray-600 transition duration-200" href="#" data-cf-modified-b0cb33a50a65d5872da8a1c1->Decline Cookies</a><a class="inline-block w-1/2 py-4 text-sm rounded-br-lg text-white font-bold hover:bg-gray-600 transition duration-200 js-cookie-consent-agree cookie-consent__agree" href="#">Allow cookies</a></div>
+</div>
+</div>
+<script type="b0cb33a50a65d5872da8a1c1-text/javascript">
+
+        window.laravelCookieConsent = (function () {
+
+            const COOKIE_VALUE = 1;
+            const COOKIE_DOMAIN = 'gobiz.goapps.co.in';
+
+            function consentWithCookies() {
+                setCookie('laravel_cookie_consent', COOKIE_VALUE, 7300);
+                hideCookieDialog();
+            }
+
+            function cookieExists(name) {
+                return (document.cookie.split('; ').indexOf(name + '=' + COOKIE_VALUE) !== -1);
+            }
+
+            function hideCookieDialog() {
+                const dialogs = document.getElementsByClassName('js-cookie-consent');
+
+                for (let i = 0; i < dialogs.length; ++i) {
+                    dialogs[i].style.display = 'none';
+                }
+            }
+
+            function setCookie(name, value, expirationInDays) {
+                const date = new Date();
+                date.setTime(date.getTime() + (expirationInDays * 24 * 60 * 60 * 1000));
+                document.cookie = name + '=' + value
+                    + ';expires=' + date.toUTCString()
+                    + ';domain=' + COOKIE_DOMAIN
+                    + ';path=/'
+                    + ';samesite=lax';
+            }
+
+            if (cookieExists('laravel_cookie_consent')) {
+                hideCookieDialog();
+            }
+
+            const buttons = document.getElementsByClassName('js-cookie-consent-agree');
+
+            for (let i = 0; i < buttons.length; ++i) {
+                buttons[i].addEventListener('click', consentWithCookies);
+            }
+
+            return {
+                consentWithCookies: consentWithCookies,
+                hideCookieDialog: hideCookieDialog
+            };
+        })();
+    </script>
+</div>
+
+<script type="b0cb33a50a65d5872da8a1c1-text/javascript" src="../js/smooth-scroll.polyfills.min.js"></script>
+<script type="b0cb33a50a65d5872da8a1c1-text/javascript" src="../js/footer.js"></script>
+<script src="../js/rocket-loader.min.js" data-cf-settings="b0cb33a50a65d5872da8a1c1-|49" defer></script></body>
+</html>
