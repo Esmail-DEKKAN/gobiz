@@ -142,7 +142,7 @@ function CategoryGrid() {
                         </div>
                         <div class="p-card-footer">
                             <div class="p-add-shop">
-                            <button class="btn">
+                            <button class="btn" onclick="addToCart('p-${cat["categories"]}')">
                                 Add
                             </button>
                             </div>
@@ -150,7 +150,7 @@ function CategoryGrid() {
                                 200 $
                             </div>
                             <div class="p-add-fav">
-                            <i id="p-${cat["categories"]}" class="fa-regular fa-heart" onclick="Favorite('p-${cat["categories"]}')"></i>
+                            <i id="p-${cat["categories"]}" class="fa-regular fa-heart" onclick="favorite('p-${cat["categories"]}')"></i>
                             </div>
                         </div>
                     </div>
