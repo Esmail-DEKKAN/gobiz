@@ -16,6 +16,31 @@
 }
 /* end header style */
 
+/* start card styling */
+.p-info {
+  display: flex ;
+  flex-direction: column;
+}
+.p-info .name {
+  display: flex;
+}
+.p-add-shop .btn {
+  background-color: #245AC4;
+  padding: 5px 17px;
+  color: whitesmoke;
+  border-radius: 5px;
+}
+.p-add-fav i {
+  font-size: 20px;
+}
+.p-card-footer{
+  display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+/* end card styling */
+
 .Filter {
     width: 100%;
     display: flex;
